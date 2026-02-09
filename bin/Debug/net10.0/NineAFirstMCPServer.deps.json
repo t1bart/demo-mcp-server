@@ -9,6 +9,7 @@
       "NineAFirstMCPServer/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "10.0.2",
+          "Microsoft.Extensions.Http": "10.0.2",
           "ModelContextProtocol": "0.8.0-preview.1"
         },
         "runtime": {
@@ -254,6 +255,22 @@
         },
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.225.61305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/10.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Diagnostics": "10.0.2",
+          "Microsoft.Extensions.Logging": "10.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Options": "10.0.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Http.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.225.61305"
           }
@@ -581,6 +598,13 @@
       "sha512": "sha512-CeAAPVOtI/wtBcHOwq6Pw3VPdGi+pNaGHZj6vfXX/5zr8beO9SyL7IOCSQ70BauFTAFS0QF7f6zu2A6hC8D6nw==",
       "path": "microsoft.extensions.hosting.abstractions/10.0.2",
       "hashPath": "microsoft.extensions.hosting.abstractions.10.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-egUPC0xydb1ugCMcRyJ6zaOGOzx7N4coOVlGeLcIsXhUf1xHHwZeX+ob7JuG0dXExFduHYE/t+4/4y8BLlBKmw==",
+      "path": "microsoft.extensions.http/10.0.2",
+      "hashPath": "microsoft.extensions.http.10.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/10.0.2": {
       "type": "package",

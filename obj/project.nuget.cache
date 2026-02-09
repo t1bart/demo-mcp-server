@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kAwCccKWYNI=",
+  "dgSpecHash": "5JFd4QYq79g=",
   "success": true,
   "projectFilePath": "C:\\Repos\\9A\\MCP\\NineAFirstMCPServer\\NineAFirstMCPServer.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.2\\microsoft.extensions.filesystemglobbing.10.0.2.nupkg.sha512",
     "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.hosting\\10.0.2\\microsoft.extensions.hosting.10.0.2.nupkg.sha512",
     "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\10.0.2\\microsoft.extensions.hosting.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.http\\10.0.2\\microsoft.extensions.http.10.0.2.nupkg.sha512",
     "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.logging\\10.0.2\\microsoft.extensions.logging.10.0.2.nupkg.sha512",
     "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.2\\microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
     "C:\\Users\\tibart.visser\\.nuget\\packages\\microsoft.extensions.logging.configuration\\10.0.2\\microsoft.extensions.logging.configuration.10.0.2.nupkg.sha512",

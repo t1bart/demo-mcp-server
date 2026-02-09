@@ -48,3 +48,4 @@ C:\Repos\9A\MCP\NineAFirstMCPServer\obj\Debug\net10.0\refint\NineAFirstMCPServer
 C:\Repos\9A\MCP\NineAFirstMCPServer\obj\Debug\net10.0\NineAFirstMCPServer.pdb
 C:\Repos\9A\MCP\NineAFirstMCPServer\obj\Debug\net10.0\NineAFirstMCPServer.genruntimeconfig.cache
 C:\Repos\9A\MCP\NineAFirstMCPServer\obj\Debug\net10.0\ref\NineAFirstMCPServer.dll
+C:\Repos\9A\MCP\NineAFirstMCPServer\bin\Debug\net10.0\Microsoft.Extensions.Http.dll
