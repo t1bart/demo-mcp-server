@@ -1,0 +1,14 @@
+{
+    "inputs": [],
+    "servers": {
+        "NineAFirstMCP": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "C:/Repos/9A/MCP/NineAFirstMCPServer/NineAFirstMCPServer.csproj"
+            ]
+        }
+    }
+}
