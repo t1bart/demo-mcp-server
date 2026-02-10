@@ -1,7 +1,11 @@
-## Build your own MCP server
+# Build your own MCP server
 
-For this workshop we are using .Net 9, Visual Studio Code and GitHub Copilot (optional Azure Functions Core Tools). Please make sure all is installed, configured and licensed. 
-### Local
+For this workshop we are using .Net 9, Visual Studio Code and GitHub Copilot. Please make sure all is installed, configured and licensed. 
+
+Respources:
+- [The official C# SDK for the MCP](https://github.com/modelcontextprotocol/csharp-sdk)
+
+## Local
 You can Skip steps 2 through 6 if you install the MCP Server template like so:
 ```shell
 dotnet new install Microsoft.McpServer.ProjectTemplates
@@ -129,7 +133,9 @@ mkdir .vscode
 13. Prompt something that could trigger the new MCP server in your VS code Github Copilot, e.g. "Camelcase the following message:'Some random message'".
 
 Enjoy.
-#### Connect to existing API
+
+
+### Connect to existing API
 To get data or make our MCP server do things we need to connect to external sources. This can be an existing API, a database or just a fileshare somewhere. Lets implement a external API to our MCP Server.
 
 1. Create a new service class for creating the external connection:
@@ -242,3 +248,24 @@ public class ExternalApiTool
     }
 }
 ```
+
+### Talk back to Agent
+Tools can have the `McpServer` representing the server injected via a parameter to the method, and can use that for interaction with the connected client. Basicly you can ask the client to perform an LLM task like summerize or translate message.
+
+You can also pre define prompts using the `[McpServerPrompt]` attribute. 
+
+```c#
+[McpServerPromptType]
+public static class MyPrompts
+{
+    [McpServerPrompt, Description("Creates a prompt to summarize the provided message.")]
+    public static ChatMessage Summarize([Description("The content to summarize")] string content) =>
+        new(ChatRole.User, $"Please summarize this content into a single sentence: {content}");
+}
+```
+
+### Configure hpw to handle client request
+...
+
+## Container
+...
